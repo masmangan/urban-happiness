@@ -8,7 +8,7 @@ public class MainApp
        
        b1 = new Bhaskara(1, 0, -4); // -2, 2
        b2 = new Bhaskara(2, -10, 8); // 4, 1
-       
+        
        // TODO: mostrar os valores das raízes,
        // no momento mostra o endereço do vetor
        double[] rs1 = b1.getRaizes();

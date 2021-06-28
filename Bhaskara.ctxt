@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Bhaskara
+comment0.text=\n\ a.x\u02C62\ +\ b.x\ +\ c\ \=\ 0\n\ \n\ TODO\:\ completar\ coment\u00E1rios\n
+comment1.params=a\ b\ c
+comment1.target=Bhaskara(double,\ double,\ double)
+comment2.params=
+comment2.target=double\ getA()
+comment3.params=
+comment3.target=double\ getB()
+comment4.params=
+comment4.target=double\ getC()
+comment5.params=
+comment5.target=double[]\ getRaizes()
+numComments=6
