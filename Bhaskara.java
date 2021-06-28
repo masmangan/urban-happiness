@@ -8,9 +8,14 @@ public class Bhaskara
     private double a;
     private double b;
     private double c;
+    private double[] raizes;
     
     public Bhaskara(double a, double b, double c)
     {        
+        if (a == 0)
+        {
+            throw new IllegalArgumentException();
+        }
         this.a = a;
         this.b = b;
         this.c = c;
@@ -33,6 +38,11 @@ public class Bhaskara
     
     public double[] getRaizes()
     {
+        if (raizes != null)
+        {
+            return raizes;
+        }
+        
         double[] solucao;
         double delta;
         // calcular o delta
@@ -59,7 +69,7 @@ public class Bhaskara
                 
             }
         }
-
+        raizes = solucao;
         return solucao;
     }    
         
