@@ -73,4 +73,11 @@ public class Bhaskara
         return solucao;
     }    
         
+    @Override
+    public String toString()
+    {
+        return String.format("Equação: %.3f.xˆ2 + %.3f.x + %.3f = 0", a, b, c);
+    }
+    
+    
 }

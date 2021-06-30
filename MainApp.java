@@ -1,6 +1,17 @@
 
 public class MainApp
 {
+    /**
+     * 
+     */
+    private MainApp()
+    {
+        
+    }
+    
+    /**
+     * 
+     */
     public static void main(String[] args)
     {
        Bhaskara b1;
@@ -8,7 +19,11 @@ public class MainApp
        
        b1 = new Bhaskara(1, 0, -4); // -2, 2
        b2 = new Bhaskara(2, -10, 8); // 4, 1
-        
+    
+       
+       System.out.println(b1);
+       System.out.println(b2);
+       
        // TODO: mostrar os valores das raízes,
        // no momento mostra o endereço do vetor
        double[] rs1 = b1.getRaizes();
